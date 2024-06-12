@@ -1,0 +1,200 @@
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.mini-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.mini-round-icon {
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.micro-icon {
+  height: 16px;;
+  width: 16px;;
+}
+
+.flx-even {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flx-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flx-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flx-col-even {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flx-col-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.flx-col-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-holder {
+  background-color: #21513b;
+}
+
+.bg-holder-1 {
+  background-color: #c7fde3;
+}
+
+.bg-element {
+  background-color: #775Af4;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.color-1 {
+  color: #fff;
+}
+
+.color-0 {
+  color: #000000;
+}
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.divider-0 {
+  height: 2px;
+  width: 100%;
+  background-color: #21513b;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.divider-1 {
+  height: 2px;
+  width: 100%;
+  background-color: #c7fde3;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.link-0 {
+  color: #21513b;
+  text-decoration: none;
+}
+
+.link-0:hover {
+  color: #21513b;
+  text-decoration: none;
+}
+.link-1 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-1:hover {
+  color: #00ff8c;
+  text-decoration: none;
+}
+
+.offcanvas-body {
+  background-color: #c7fde3;
+}
+
+#philosophy:hover{
+  background-color: #21513b;
+  color: #c7fde3;
+  border-left: #c7fde3 4px solid;
+}
+#staff:hover{
+  background-color: #21513b;
+  color: #c7fde3;
+  border-left: #c7fde3 4px solid;
+}
+#history:hover{
+  background-color: #21513b;
+  color: #c7fde3;
+  border-left: #c7fde3 4px solid;
+}
+#leadership:hover {
+  background-color: #21513b;
+  color: #c7fde3;
+  border-left: #c7fde3 4px solid;
+}
+
+.h-0:hover {
+  cursor: url('roundpointerright.png'), auto;
+  background-color: #abffd9;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  height: 20rem;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.img-below {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.img-below:hover {
+  filter: brightness(70%);
+  transform: scale(.95);
+  cursor: pointer;
+}
+
+.text-overlay h2 {
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.text-overlay p {
+  margin-bottom: 0;
+  cursor: pointer;
+}

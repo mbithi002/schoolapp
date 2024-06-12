@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>campus life</title>
+    <link rel="icon" type="image/png" style="background-color: #f0f0f0;"
+    href="resources/icons/logo.png"">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="library/animations.css" />
+    <link rel="stylesheet" href="library/header.css" />
+    <link rel="stylesheet" href="library/shared.css" />
+    <link rel="stylesheet" href="library/media.css" />
+    <link rel="stylesheet" href="library/index.css" />
+  </head>
+  <body>
+    <!-- preloader animation here -->
+    <section id="loader">
+      <div class="spinner-grow" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </section>
+    <!-- preloader animation END -->
+
+    <!-- all the content goes here -->
+
+    <section id="body" class="bg-holder-1 opacity-fade">
+      
+      <!--  Header Section Starts Here -->
+      <section id="header">
+        <div class="container-fluid large-screens-header">
+          <div class="row bg-holder-1 color-0" style="height: 60px; align-items: center;">
+            <div class="col-md-9">
+              <nav class="nav">
+                <a class="nav-link color-0 ctive" aria-current="page" href="index.html">Home</a>
+                <div class="dropdown">
+                  <a class="nav-link color-0" href="about.html">
+                    About<img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                    <div class="dropdown-content  slide-top-q">
+                      <a href="about.html#philosophy"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Our Philosophy</a>
+                      <a href="about.html#history"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Our History</a>
+                      <a href="about.html#leadership"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Leadership Council</a>
+                      <a href="about.html#staff"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Staff</a>
+                    </div>
+                  </a>
+                </div>
+                <a class="nav-link color-0" href="research.html">Research</a>
+                <div class="dropdown">
+                  <a class="nav-link color-0" href="portals.html">
+                      Portals<img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                      <div class="dropdown-content slide-top-q">
+                        <a href="portals.html#elearning"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">E-Learning</a>
+                        <a href="portals.html#eregister"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">E-Register</a>
+                      </div>
+                    </a>
+                  </div>
+                <div class="dropdown">
+                <a class="nav-link color-0" href="academics.html">
+                    Academics<img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                    <div class="dropdown-content slide-top-q">
+                      <a href="academics.html#schools"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Schools</a>
+                      <a href="academics.html#institutions"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Institutions</a>
+                      <a href="academics.html#programmes"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Programmes</a>
+                    </div>
+                  </a>
+                </div>
+                <a class="nav-link color-0" href="campuslife.html">Campus Life</a>
+                <div class="dropdown">
+                  <a class="nav-link color-0" href="newsevents.html">
+                      News & Events <img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                      <div class="dropdown-content slide-top-q">
+                        <a href="newsevents.html#news"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">News</a>
+                        <a href="newsevents.html#events"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Events</a>
+                        <a href="newsevents.html#notice-board"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Notice Board</a>
+                      </div>
+                    </a>
+                  </div>
+                <a class="nav-link color-0" href="downloads.html">Downloads</a>
+              </nav>
+            </div>
+            <div class="col-md-3">
+              <a href="index.html" class="link-0 flx-around">
+                <img src="resources/icons/logo.png" alt="logo" class="mini-icon">
+                <p>NAME</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid header-mobile bg-holder-1 color-0" style="align-items: center;">
+          <div class="row flx-between">
+            <div class="col col-md-4">
+              <div class="menu-container" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <span class="span"></span>
+                <span class="span"></span>
+                <span class="span"></span>
+              </div>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header bg-holder">
+                  <a href="index.html" class="link-1"><h1 id="offcanvasRightLabel" class="color-1">School</h1></a>
+                  <button style="background-color: #fff;" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="display: flex; flex-direction: column; font-size: 1.2rem;">
+                  <a href="about.html" class="link-0">About</a>
+                  <a href="about.html#philosophy" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Our Philosophy</a>
+                  <a href="about.html#history" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Our History</a>
+                  <a href="about.html#leadership" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon">Leadership Council</a>
+                  <a href="about.html#staff" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon">Staff</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="research.html" class="link-0">Research</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="portals.html" class="link-0">Portals</a>
+                  <a href="portals.html#elearning" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> E-Learning</a>
+                  <a href="portals.html#eregister" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> E-Register</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="academics.html" class="link-0">Academics</a>
+                  <a href="academics.html#schools" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Schools</a>
+                  <a href="academics.html#institutions" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Institutions</a>
+                  <a href="academics.html#schools" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Programmes</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="campuslife.html" class="link-0">Campus life</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="newsevents.html" class="link-0">News & Events</a>
+                  <a href="newsevents.html#news" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> News</a>
+                  <a href="newsevents.html#events" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon">Events</a>
+                  <a href="newsevents.html#noticeboard" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Notice Board</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="downloads.html" class="link-0">Downloads</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-8" style="text-align: right;">
+              <a href="index.html" class="link-0"><h1>School</h1></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Header Section ENDS Here -->
+
+      <!-- Main section begins here -->
+      <section id="main" class="slide-top">
+        <div class="container-fluid bg-element color-1 flx-around" style="height: 200px;">
+          <h2>Campus Life:</h2>
+        </div>
+
+        <div class="container my-3">
+          <div class="row py-3 px-2">
+            <div class="col-md-6">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="resources/images/campuslife1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="resources/images/campuslife2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="resources/images/campuslife3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="resources/images/campuslife4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="resources/images/campuslife5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 color-0">
+              <h5>Triving in Community: </h5>
+              <p>Welcome to our Campus Life Page, your go-to resource for discovering the vibrant and dynamic community that awaits you on our campus. From extracurricular activities to cultural events, student organizations, and campus amenities, there's something for everyone to explore and enjoy as you embark on your journey with us.</p>
+              <br>
+              <h5>Discover the Campus Life Experience</h5>
+              <p>
+                Join us in embracing the vibrant campus life experience that awaits you at our institution. Whether you're forging lifelong friendships, exploring new interests, or making memories that will last a lifetime, our campus is a place where you can grow, learn, and thrive in community. Welcome to a world of endless possibilities and unforgettable experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-4">
+            <div class="col my-3 flx-around">
+              <div class="card color-0" style="width: 16rem; height: 25rem;">
+                <img src="resources/images/extracurricularactivities.jpg" class="card-img-top" alt="..." style="height: 10rem;">
+                <div class="card-body">
+                  <h6>Co-curriculer Activities</h6>
+                  <p class="card-text">Step outside the classroom and immerse yourself in a world of extracurricular activities designed to enrich your college experience and foster personal growth. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col my-3 flx-around">
+              <div class="card color-0" style="width: 16rem; height: 25rem;">
+                <img src="resources/images/stdutenceorganizations.jpg" class="card-img-top" alt="..." style="height: 10rem;">
+                <div class="card-body">
+                  <h6>Student organizations</h6>
+                  <p class="card-text">Connect with like-minded peers and pursue your passions through our vibrant student organizations. From academic and professional clubs to cultural and social groups,</p>
+                </div>
+              </div>
+            </div>
+            <div class="col my-3 flx-around">
+              <div class="card color-0" style="width: 16rem; height: 25rem;">
+                <img src="resources/images/culturalevents.jpg" class="card-img-top" alt="..." style="height: 10rem;">
+                <div class="card-body">
+                  <h6>Cultural Events</h6>
+                  <p class="card-text">Experience the richness and diversity of our campus community through a variety of cultural events, performances, and celebrations. From music concerts and art exhibitions to film screenings and international festivals,
+                </div>
+              </div>
+            </div>
+            <div class="col my-3 flx-around">
+              <div class="card color-0" style="width: 16rem; height: 25rem;">
+                <img src="resources/images/campusamenities.jpg" class="card-img-top" alt="..." style="height: 10rem;">
+                <div class="card-body">
+                  <h6>Campus Amenities</h6>
+                  <p class="card-text">Discover the many amenities and facilities available to support your academic and personal needs on campus. From state-of-the-art fitness centers and recreational facilities. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col my-3 flx-around">
+              <div class="card color-0" style="width: 16rem; height: 25rem;">
+                <img src="resources/images/communityengagement.jpg" class="card-img-top" alt="..." style="height: 10rem;">
+                <div class="card-body">
+                  <h6>Community Engagement</h6>
+                  <p class="card-text">Engage with the broader community and make a positive impact through service-learning opportunities, community service projects.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Main section ends here -->
+
+      <!--  Footer Section Starts Here -->
+
+      <section id="footer">
+        <div class="container-fluid bg-holder-1 color-0">
+          <div class="row px-2 py-5 MY-3">
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Contact Us</h5>
+              <div class="divider-0 my-2"></div>
+              <p>
+                location [XXXXXXXXXXX]
+                P.O Box [XXXXXXXXXXX]
+                Tel : [XXXXXXXXXXXX]
+                Email: [XXXXXXXXXXXX]
+              </p>
+            </div>
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Student resources</h5>
+              <div class="divider-0"></div>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">E-Learning</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">E-Registrar</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Student Mail</a>
+            </div>
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Staff resources</h5>
+              <div class="divider-0"></div>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">KENET Web Conference</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Staff Mail</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Staff Portal</a><br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Staff Profiles</a><br>
+            </div>
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Important Links</h5>
+              <div class="divider-0"></div>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Career Opportunities</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Contract Awards</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Suppliers</a><br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Tenders</a><br>
+            </div>
+          </div>
+
+          <div class="row py-2">
+            <img src="resources/icons/facebook.png" alt="facebook" class="mini-round-icon">
+            <img src="resources/icons/instagram.png" alt="instagram" class="mini-round-icon">
+            <img src="resources/icons/x.png" alt="x" class="mini-round-icon">
+            <img src="resources/icons/tiktok.png" alt="Tiktok" class="mini-round-icon">
+          </div>
+        </div>
+        
+        <div class="container-fluid bg-element">
+          <div class="row py-3 px-2" style="text-align: center;">
+            <p>Powered by luckyTech &#169 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <!--  Footer Section ENDS Here -->
+    </section>
+
+    <!-- all the content ends here -->
+
+    
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

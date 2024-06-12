@@ -1,0 +1,203 @@
+/* loader animation */
+.loader {
+  height: 50px;
+  width: 50px;
+  border-top: 4px #fff solid;
+  border-radius: 50%;
+  background-color: transparent;
+  animation: spin 400ms linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360);
+  }
+}
+.slide-top {
+  -webkit-animation: slide-top 900ms cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 900ms cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 1;
+  }
+}
+
+.slide-top-q {
+  -webkit-animation: slide-top 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+}
+
+.slide-fwd-center {
+  -webkit-animation: slide-fwd-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-fwd-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
+.opacity-fade {
+  -webkit-animation: opacity-fade 1s linear;
+  animation: opacity-fade 1s linear;
+}
+
+@keyframes opacity-fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-animation {
+  border-right: 0.1em solid #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s cubic-bezier(0.25, 0.1, 0.25, 1),
+    blink-caret 0.75s step-end forwards;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-animation-infinite {
+  border-right: 0.1em solid #fff;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s cubic-bezier(0.25, 0.1, 0.25, 1) infinite,
+    blink-caret 0.75s step-end forwards;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+.why-card:hover {
+	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            cursor: pointer;
+}
+
+ @-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 #d7d7d7;
+              box-shadow: 0 0 0 0 #d7d7d7;
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px #fff;
+              box-shadow: 0 0 20px 0px #fff;
+    }
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 #fff;
+              box-shadow: 0 0 0 0 #fff;
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px #d7d7d7;
+              box-shadow: 0 0 20px 0px #d7d7d7;
+    }
+  }
+  

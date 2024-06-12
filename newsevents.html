@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News & Events</title>
+    <link rel="icon" type="image/png" style="background-color: #f0f0f0;"
+    href="resources/icons/logo.png"">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="library/animations.css" />
+    <link rel="stylesheet" href="library/header.css" />
+    <link rel="stylesheet" href="library/shared.css" />
+    <link rel="stylesheet" href="library/media.css" />
+    <link rel="stylesheet" href="library/index.css" />
+  </head>
+  <body>
+    <!-- preloader animation here -->
+    <section id="loader">
+      <div class="spinner-grow" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </section>
+    <!-- preloader animation END -->
+
+    <!-- all the content goes here -->
+
+    <section id="body" class="opacity-fade bg-white">
+      
+      <!--  Header Section Starts Here -->
+      <section id="header">
+        <div class="container-fluid large-screens-header">
+          <div class="row bg-holder-1 color-0" style="height: 60px; align-items: center;">
+            <div class="col-md-9">
+              <nav class="nav">
+                <a class="nav-link color-0 ctive" aria-current="page" href="index.html">Home</a>
+                <div class="dropdown">
+                  <a class="nav-link color-0" href="about.html">
+                    About<img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                    <div class="dropdown-content slide-top-q">
+                      <a href="about.html#philosophy"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Our Philosophy</a>
+                      <a href="about.html#history"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Our History</a>
+                      <a href="about.html#leadership"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Leadership Council</a>
+                      <a href="about.html#staff"><img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Staff</a>
+                    </div>
+                  </a>
+                </div>
+                <a class="nav-link color-0" href="research.html">Research</a>
+                <div class="dropdown">
+                  <a class="nav-link color-0" href="portals.html">
+                      Portals<img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                      <div class="dropdown-content slide-top-q">
+                        <a href="portals.html#elearning"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">E-Learning</a>
+                        <a href="portals.html#eregister"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">E-Register</a>
+                      </div>
+                    </a>
+                  </div>
+                <div class="dropdown">
+                <a class="nav-link color-0" href="academics.html">
+                    Academics<img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                    <div class="dropdown-content slide-top-q">
+                      <a href="academics.html#schools"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Schools</a>
+                      <a href="academics.html#institutions"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Institutions</a>
+                      <a href="academics.html#programmes"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Programmes</a>
+                    </div>
+                  </a>
+                </div>
+                <a class="nav-link color-0" href="campuslife.html">Campus Life</a>
+                <div class="dropdown">
+                  <a class="nav-link color-0" href="newsevents.html">
+                      News & Events <img src="resources/icons/pointerdownnofill.png" alt="point" class="micro-icon">
+                      <div class="dropdown-content slide-top-q">
+                        <a href="newsevents.html#news"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">News</a>
+                        <a href="newsevents.html#events"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Events</a>
+                        <a href="newsevents.html#notice-board"> <img src="resources/icons/roundpointerright.png" alt="point" class="micro-icon">Notice Board</a>
+                      </div>
+                    </a>
+                  </div>
+                <a class="nav-link color-0" href="downloads.html">Downloads</a>
+              </nav>
+            </div>
+            <div class="col-md-3">
+              <a href="index.html" class="link-0 flx-around">
+                <img src="resources/icons/logo.png" alt="logo" class="mini-icon">
+                <p>NAME</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid header-mobile bg-holder-1 color-0" style="align-items: center;">
+          <div class="row flx-between">
+            <div class="col col-md-4">
+              <div class="menu-container" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <span class="span"></span>
+                <span class="span"></span>
+                <span class="span"></span>
+              </div>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header bg-holder">
+                  <a href="index.html" class="link-1"><h1 id="offcanvasRightLabel" class="color-1">School</h1></a>
+                  <button style="background-color: #fff;" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="display: flex; flex-direction: column; font-size: 1.2rem;">
+                  <a href="about.html" class="link-0">About</a>
+                  <a href="about.html#philosophy" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Our Philosophy</a>
+                  <a href="about.html#history" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Our History</a>
+                  <a href="about.html#leadership" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon">Leadership Council</a>
+                  <a href="about.html#staff" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon">Staff</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="research.html" class="link-0">Research</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="portals.html" class="link-0">Portals</a>
+                  <a href="portals.html#elearning" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> E-Learning</a>
+                  <a href="portals.html#eregister" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> E-Register</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="academics.html" class="link-0">Academics</a>
+                  <a href="academics.html#schools" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Schools</a>
+                  <a href="academics.html#institutions" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Institutions</a>
+                  <a href="academics.html#schools" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Programmes</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="campuslife.html" class="link-0">Campus life</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="newsevents.html" class="link-0">News & Events</a>
+                  <a href="newsevents.html#news" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> News</a>
+                  <a href="newsevents.html#events" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon">Events</a>
+                  <a href="newsevents.html#noticeboard" class="px-4 link-0"><img src="resources/icons/roundpointerright.png" alt="" class="micro-icon"> Notice Board</a>
+                  <div class="divider-0 my-2"></div>
+                  <a href="downloads.html" class="link-0">Downloads</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-8" style="text-align: right;">
+              <a href="index.html" class="link-0"><h1>School</h1></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Header Section ENDS Here -->
+
+      <!-- Main section begins here -->
+      <section id="main" class="slide-top bg-white">
+        <div class="conainer-fluid bg-holder-1 color-0 flx-around" style="height:  200px; text-align: center;">
+          <h2 class="typing-animation" id="news">News And Events:</h2>
+        </div>
+
+
+        <div class="container fluid">
+          <div class="row py-3 color-1">
+            <div class="col-md-6">
+                  <img src="resources/images/newshero.jpg" alt="eventsimage" class="img-fluid" style="height: 24rem;">
+            </div>
+            <div class="col-md-6 bg-element py-4 px-2">
+              <h4 class="typing-animation">
+                Stay Updated with [School Name] News!
+              </h4>
+              <br>
+              <p>
+                <strong>Exciting Updates: </strong>Stay informed about the latest happenings at [School Name]. From academic achievements to student accomplishments, our news section keeps you updated on all the exciting developments within our school community.
+              </p>
+              <strong>Interactive Discussions: </strong>
+              <p>
+                Engage in thought-provoking discussions and stay connected with our vibrant community. From guest speaker events to panel discussions on relevant topics, our events foster dialogue and collaboration among students, faculty, and parents.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-fluid" id="events">
+            <div class="row py-3 color-0">
+              <div class="col-md-6">
+                <img src="resources/images/eventshero.jpg" alt="eventsimage" class="img-fluid" style="height: 24rem;">
+              </div>
+              <div class="col-md-6 bg-holder-1 py-5 px-3">
+                <h5>Engage in Our Events!</h5>
+                <br>
+                <strong>Engaging Events: </strong>
+                Discover upcoming events and activities that enrich the educational experience at [School Name]. Whether it’s a cultural festival, a sports tournament, or a community service project, there’s always something exciting happening on our campus.
+              </p>
+              <strong>Celebrate Achievements: </strong>
+              <p>
+                Join us in celebrating the achievements of our students, faculty, and alumni. From academic accolades to artistic accomplishments, we take pride in recognizing and honoring the contributions of our school community members.
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row px-2 py-3 color-1 bg-holder">
+              <div class="col-md-6" style="border-left: #f0f0f0 4px solid;">
+                <h5>
+                  Get Involved: 
+                </h5>
+                <p>
+                  Explore opportunities to get involved in school events and initiatives. Whether you’re interested in volunteering, participating in clubs and organizations, or attending school performances, there are plenty of ways to become an active member of the [School Name] community.
+                </p>
+              </div>
+              <div class="col-md-6" style="border-left: #f0f0f0 4px solid;">
+                <h5>Exciting Updates: </h5>
+                <p>
+                  Stay informed about the latest happenings at [School Name]. From academic achievements to student accomplishments, our news section keeps you updated on all the exciting developments within our school community.
+                </p>
+                </div>
+            </div>
+          </div>
+          <br>
+            <h3 class="color-0" id="notice-board" style="text-align: center;">Notice Board:</h3><br>
+            <div class="container-fluid color-0 my-3">
+            <h3 class="color-0" style="text-align: center;">News Section:</h3>
+            <div class="row my-4 gx-2 gy-2">
+              <div class="col-md-3">
+                <div class="divider-0"></div>
+                <div class="col flx-between h-0" id="cs" style="height: 6rem; cursor: pointer;" >
+                  <h5>CS Visit</h5>
+                  <img src="resources/icons/pointerright.png" alt="icon" class="mini-icon">
+                </div>
+                <div class="divider-0"></div>
+                <div class="col flx-between h-0" id="elections" style="height: 6rem; cursor: pointer;" >
+                  <h5>Student Elections</h5>
+                  <img src="resources/icons/pointerright.png" alt="icon" class="mini-icon">
+                </div>
+                <div class="divider-0"></div>
+                <div class="col flx-between h-0" id="sports" style="height: 6rem; cursor: pointer;" >
+                  <h5>Sports</h5>
+                  <img src="resources/icons/pointerright.png" alt="icon" class="mini-icon">
+                </div>
+                <div class="divider-0"></div>
+              </div>
+              <div class="col-md-9" id="news-text-feeder" style="border: #21513b 1px solid; border-radius: 8px;">
+                <h5>Cabinet Secretary For Education Visits:</h5>
+                <br>
+                <div class="row mx-2">
+                  <div class="col-md-6" style="border-left: #21513b 2px solid;">
+                    <p>
+                      We are honored to announce that the Cabinet Secretary of Education will be visiting our esteemed institution, [School Name]. This momentous occasion marks a significant opportunity for us to showcase the exemplary educational practices and achievements that define our school community.
+
+                      During the visit, the Cabinet Secretary will have the opportunity to witness firsthand the innovative teaching methodologies, rigorous academic standards, and vibrant extracurricular programs that are integral to the holistic development of our students. From interactive classroom demonstrations to engaging discussions with faculty and students, the visit will provide valuable insights into the transformative impact of education at [School Name].
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="resources/images/cs1.jpg" class="d-block w-100" alt="" class="img-fluid" style="height: 20rem; width: 18rem;">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="resources/images/cs2.jpg" class="d-block w-100" alt="" class="img-fluid" style="height: 20rem; width: 18rem;">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="resources/images/cs3.jpg" class="d-block w-100" alt="" class="img-fluid" style="height: 20rem; width: 18rem;">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="container-fluid color-0 my-3">
+            <h3 class="colo0" style="text-align: center;">Events Section:</h3>
+            <div class="row my-4 gx-2 gy-2">
+              <div class="col-md-3">
+                <div class="divider-0"></div>
+                <div class="col flx-between h-0" id="tech" style="height: 6rem; cursor: pointer;" >
+                  <h5>Annual Tech Expo</h5>
+                  <img src="resources/icons/pointerright.png" alt="icon" class="mini-icon">
+                </div>
+                <div class="divider-0"></div>
+                <div class="col flx-between h-0" id="medical" style="height: 6rem; cursor: pointer;" >
+                  <h5>Medical Research</h5>
+                  <img src="resources/icons/pointerright.png" alt="icon" class="mini-icon">
+                </div>
+                <div class="divider-0"></div>
+                <div class="col flx-between h-0" id="music" style="height: 6rem; cursor: pointer;" >
+                  <h5>Music Festivals</h5>
+                  <img src="resources/icons/pointerright.png" alt="icon" class="mini-icon">
+                </div>
+                <div class="divider-0"></div>
+              </div>
+              <div class="col-md-9 px-2 py-2" id="events-text-feeder" style="border: #21513b 1px solid; border-radius: 8px;">
+                <h5>Annual Tech Expo:</h5>
+                <br>
+                <div class="row mx-2">
+                  <div class="col-md-6" style="border-left: #21513b 2px solid;">
+                    <p>
+                      The annual Tech Expo at [School Name] is a highly anticipated event that showcases the innovative projects and technological prowess of our students. From cutting-edge robotics demonstrations to interactive virtual reality experiences, the Tech Expo provides a platform for students to explore emerging technologies and demonstrate their creativity and skills. With engaging presentations, hands-on workshops, and inspiring keynote speakers, the Expo fosters a culture of curiosity and innovation, inspiring the next generation of technologists and problem-solvers. Join us at the Tech Expo and witness the future of technology unfold right before your eyes.
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="resources/images/techexpo1.jpg" class="d-block w-100" alt="" class="img-fluid" style="height: 20rem; width: 18rem;">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="resources/images/techexpo2.jpg" class="d-block w-100" alt="" class="img-fluid" style="height: 20rem; width: 18rem;">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="resources/images/techexpo3.jpg" class="d-block w-100" alt="" class="img-fluid" style="height: 20rem; width: 18rem;">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
+      <!-- Main section ends here -->
+
+      <!--  Footer Section Starts Here -->
+
+      <section id="footer">
+        <div class="container-fluid bg-holder-1 color-0">
+          <div class="row px-2 py-5 MY-3">
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Contact Us</h5>
+              <div class="divider-0 my-2"></div>
+              <p>
+                location [XXXXXXXXXXX]
+                P.O Box [XXXXXXXXXXX]
+                Tel : [XXXXXXXXXXXX]
+                Email: [XXXXXXXXXXXX]
+              </p>
+            </div>
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Student resources</h5>
+              <div class="divider-0"></div>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">E-Learning</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">E-Registrar</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Student Mail</a>
+            </div>
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Staff resources</h5>
+              <div class="divider-0"></div>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">KENET Web Conference</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Staff Mail</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Staff Portal</a><br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Staff Profiles</a><br>
+            </div>
+            <div class="col-md-3" style="border-left: #21513b 3px solid;">
+              <h5>Important Links</h5>
+              <div class="divider-0"></div>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Career Opportunities</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Contract Awards</a> <br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Suppliers</a><br>
+              <img src="resources/icons/pointerright.png" alt="" class="micro-icon"> <a href="#" class="link-0">Tenders</a><br>
+            </div>
+          </div>
+
+          <div class="row py-2">
+            <img src="resources/icons/facebook.png" alt="facebook" class="mini-round-icon">
+            <img src="resources/icons/instagram.png" alt="instagram" class="mini-round-icon">
+            <img src="resources/icons/x.png" alt="x" class="mini-round-icon">
+            <img src="resources/icons/tiktok.png" alt="Tiktok" class="mini-round-icon">
+          </div>
+        </div>
+        
+        <div class="container-fluid bg-element">
+          <div class="row py-3 px-2" style="text-align: center;">
+            <p>Powered by luckyTech &#169 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <!--  Footer Section ENDS Here -->
+    </section>
+
+    <!-- all the content ends here -->
+
+    
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/events.js"></script>
+    <script src="scripts/news.js"></script>
+  </body>
+</html>
